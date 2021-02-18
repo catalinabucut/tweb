@@ -1,6 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 
+import { DatePicker } from 'antd';
+import { Layout, Menu, Breadcrumb } from 'antd';
+import ReactDOM from 'react-dom';
+
+
+const { Header, Content, Footer } = Layout;
+
+let mountNode = document.getElementById("root");
+
+ReactDOM.render(<DatePicker />, mountNode);
+
 function App() {
   return (
     <div className="App">
