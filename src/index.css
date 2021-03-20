@@ -1,12 +1,38 @@
-.logo {
-  height: 32px;
-  margin: 16px;
-  background: rgba(255, 255, 255, 0.3);
+/* .logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.2);
 }
-
 .site-layout .site-layout-background {
   background: #fff;
 }
-  [data-theme="dark"] .site-layout .site-layout-background {
-    background: #141414;
-  }
+[data-theme="dark"] .site-layout .site-layout-background {
+  background: #141414;
+} */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
